@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Haotian Wang / Assistant Researcher"
+title                    : "Haotian Wang"
 title_separator          : "-"
 name                     : &name "Haotian"
 description              : &description "His research interests include parallel computing, tensor compilation, and artificial intelligence."
@@ -25,7 +25,7 @@ author:
   avatar           : "wht.png"
   name             : "Haotian Wang"
   pronouns         : # example: "she/her"  
-  bio              : "He is an ACM Member. His research interests include parallel computing, tensor compilation, and artificial intelligence"
+  bio              : "He is an Assistant Researcher and ACM Member. His research interests include parallel computing, tensor compilation, and artificial intelligence"
   location         : "China"
   employer         : "Hunan University"
   # uri              : # URL

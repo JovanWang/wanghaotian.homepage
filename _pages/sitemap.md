@@ -11,5 +11,6 @@ author_profile: true
 
 - [Home]({{ base_path }}/)
 - [Publications]({{ base_path }}/publications/)
+- [Patents and Software]({{ base_path }}/intellectual-property/)
 - [News]({{ base_path }}/talks/)
 - [CV]({{ base_path }}/cv/)

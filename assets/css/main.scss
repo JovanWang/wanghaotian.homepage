@@ -203,7 +203,9 @@
 .research-grid article,
 .selected-pubs article,
 .news-list article,
-.pub-item {
+.pub-item,
+.ip-item,
+.output-summary {
   border: 1px solid var(--wht-line);
   border-radius: 8px;
   background: var(--wht-surface);
@@ -271,6 +273,17 @@
   margin: 1rem 0;
 }
 
+.output-summary {
+  padding: 1rem 1.05rem;
+  margin: 1rem 0 1.2rem;
+}
+
+.output-summary p {
+  margin: 0 0 .7rem;
+  color: var(--wht-muted);
+  line-height: 1.58;
+}
+
 .news-list article {
   display: grid;
   grid-template-columns: 6.3rem minmax(0, 1fr);
@@ -309,6 +322,33 @@ ol.pub-list > li::marker {
 
 .pub-item {
   padding: 1rem 1.05rem;
+}
+
+.ip-list {
+  display: grid;
+  gap: .8rem;
+  margin: 1rem 0 1.6rem;
+}
+
+.ip-list.compact {
+  gap: .65rem;
+}
+
+.ip-item {
+  padding: 1rem 1.05rem;
+}
+
+.ip-item h3 {
+  margin-top: 0;
+  margin-bottom: .4rem;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.ip-item p {
+  margin: .25rem 0 0;
+  color: var(--wht-muted);
+  line-height: 1.58;
 }
 
 .pub-meta {

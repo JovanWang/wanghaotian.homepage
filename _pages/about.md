@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Haotian Wang"
+title: "Research"
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,8 +11,8 @@ redirect_from:
 
 <section class="home-hero">
   <div class="home-kicker">High-performance sparse computing · Tensor compilers · Heterogeneous systems</div>
-  <h1>Haotian Wang</h1>
-  <p class="home-subtitle">Postdoctoral researcher at Hunan University, working on sparse tensor/matrix computation, parallel algorithms, tensor compilation, and AI/HPC-oriented code generation.</p>
+  <h1>High-Performance Sparse Computing</h1>
+  <p class="home-subtitle">Associate Researcher and HNU Hexi Postdoctoral Fellow working on sparse tensor computing, heterogeneous parallel modeling, tensor compiler optimization, and AI/HPC-oriented code generation.</p>
   <div class="home-actions">
     <a class="home-button primary" href="{{ base_path }}/publications/"><i class="fa-solid fa-book-open"></i> Publications</a>
     <a class="home-button" href="https://scholar.google.com/citations?user=64Ta-Z0AAAAJ&hl=zh-CN"><i class="ai ai-google-scholar"></i> Google Scholar</a>
@@ -23,22 +23,28 @@ redirect_from:
 
 ## About
 
-Haotian Wang is a postdoctoral researcher at the College of Computer Science and Electronic Engineering, Hunan University. He received the Ph.D. degree in computer science from Hunan University in 2023 and the B.S. degree from the School of Information Engineering, Nanchang University in 2018. He previously completed a one-year joint PhD program at Nanyang Technological University.
+I am an Associate Researcher and HNU Hexi Postdoctoral Fellow at Hunan University. I received the Ph.D. degree in Computer Science and Technology from Hunan University in 2023, with joint doctoral training at Nanyang Technological University. I was selected for the 2024 Postdoctoral Innovation Talent Support Program, also known as the National Postdoctoral Program for Innovative Talents, Tier A.
 
-His research focuses on high-performance sparse computing on modern heterogeneous architectures. He works on sparse tensor and matrix algorithms, sparse pattern-aware optimization, tensor compilers, and AI/HPC-oriented code generation. His publications appear in journals and conferences including IEEE TPDS, IEEE TC, ACM TOPC, JPDC, IEEE TNSE, and DAC.
+My research focuses on sparse tensor computing, heterogeneous parallel modeling, tensor compiler optimization, high-performance computing, heterogeneous computing, sparse optimization, automatic operator code generation, and generative artificial intelligence. I have hosted projects funded by the National Natural Science Foundation of China Youth Fund (Class C), China Postdoctoral Science Foundation, CCF-Huawei Populus Grove Fund, and State Grid, and have contributed as a technical member to national key R&D projects and industrial collaboration projects with Sugon, Huawei, and other partners. Related work has been published in venues including IEEE TPDS, IEEE TC, IEEE TSC, SC, and DAC.
+
+## 中文简介
+
+王昊天，副研究员，湖南大学赫曦博士后。2023 年博士毕业于湖南大学计算机科学与技术专业，博士期间曾在南洋理工大学联合培养；入选 2024 年度博士后创新人才支持计划（国家资助博士后研究人员计划 A 档）。主要研究领域为稀疏张量计算、异构并行建模、张量编译优化，并长期从事高性能计算、异构计算、稀疏优化、算子代码自动生成、生成式人工智能等方向研究。
+
+主持国家自然科学基金青年项目（C 类）、博士后科学基金面上项目、CCF-华为胡杨林基金和国家电网项目，作为技术骨干参与多项国家重点研发计划，以及曙光、华为等企业合作横向课题。相关成果在 TPDS、TC、TSC、SC、DAC 等国际期刊会议发表论文 10 余篇。
 
 <section class="metrics-strip" aria-label="Research snapshot">
   <div>
-    <strong>10+</strong>
-    <span>papers in journals and conferences</span>
+    <strong>20+</strong>
+    <span>journal and conference papers</span>
   </div>
   <div>
-    <strong>2024</strong>
-    <span>CCF-Huawei Populus Grove Fund</span>
+    <strong>17</strong>
+    <span>pending patent applications</span>
   </div>
   <div>
-    <strong>ACM</strong>
-    <span>member</span>
+    <strong>3</strong>
+    <span>software copyrights in progress</span>
   </div>
 </section>
 
@@ -71,21 +77,28 @@ His research focuses on high-performance sparse computing on modern heterogeneou
   <article>
     <span class="pub-year">2025</span>
     <h3>A Context-Awareness and Hardware-Friendly Sparse Matrix Multiplication Kernel for CNN Inference Acceleration</h3>
-    <p>Haotian Wang, Yan Ding, Yumeng Liu, Weichen Liu, Chubo Liu, Wangdong Yang, Kenli Li. <em>IEEE Transactions on Computers</em>.</p>
+    <p><em>IEEE Transactions on Computers</em>, 2025.</p>
   </article>
   <article>
     <span class="pub-year">2025</span>
     <h3>SparseMode: A Sparse Compilation Framework for Efficient SpMV Vectorized Code Generation</h3>
-    <p>Haotian Wang, Yan Ding, Xianhao He, Guoqing Xiao, Wangdong Yang. <em>Journal of Computer Research and Development</em>.</p>
+    <p><em>Journal of Computer Research and Development</em>, 2025.</p>
   </article>
   <article>
     <span class="pub-year">2023</span>
     <h3>A Novel Parallel Algorithm for Sparse Tensor Matrix Chain Multiplication via TCU-Acceleration</h3>
-    <p>Haotian Wang, Wangdong Yang, Rong Hu, Renqiu Ouyang, Kenli Li, Keqin Li. <em>IEEE Transactions on Parallel and Distributed Systems</em>.</p>
+    <p><em>IEEE Transactions on Parallel and Distributed Systems</em>, 2023.</p>
   </article>
 </div>
 
 <p><a class="text-link" href="{{ base_path }}/publications/">View full publication list <i class="fa-solid fa-arrow-right"></i></a></p>
+
+## Intellectual Property
+
+<div class="output-summary">
+  <p>Recent outputs include pending invention patent applications and software copyright registrations around sparse operators, tensor code generation, heterogeneous memory systems, AI-assisted optimization, and large-model/HPC runtime support.</p>
+  <a class="text-link" href="{{ base_path }}/intellectual-property/">View patents and software <i class="fa-solid fa-arrow-right"></i></a>
+</div>
 
 ## Projects and News
 

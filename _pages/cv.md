@@ -9,56 +9,41 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Haotian Wang
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+Postdoctoral researcher, College of Computer Science and Electronic Engineering, Hunan University<br>
+Email: [wanghaotian@hnu.edu.cn](mailto:wanghaotian@hnu.edu.cn)<br>
+Google Scholar: [64Ta-Z0AAAAJ](https://scholar.google.com/citations?user=64Ta-Z0AAAAJ&hl=zh-CN)<br>
+DBLP: [Haotian Wang](https://dblp.org/pid/63/11345-6)<br>
+ORCID: [0000-0002-0086-6301](https://orcid.org/0000-0002-0086-6301)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Interests
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- High-performance sparse computing
+- Sparse tensor and matrix algorithms
+- Tensor compilers and sparse code generation
+- Heterogeneous parallel computing
+- AI/HPC systems software
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Education
+
+- Ph.D. in Computer Science, Hunan University, 2023
+- B.S., School of Information Engineering, Nanchang University, 2018
+
+## Experience
+
+- Postdoctoral Researcher, Hunan University
+- Joint PhD visitor, Nanyang Technological University
+
+## Selected Publications
+
+See the [publications page]({{ base_path }}/publications/) for the formatted list.
+
+## Projects
+
+- CCF-Huawei Populus Grove Fund, 2024: Hybrid compilation optimization framework for sparse operator libraries in multi-computing scenarios.
+- China National Postdoctoral Program for Innovative Talents, 2024.
+
+## Professional Membership
+
+- ACM Member

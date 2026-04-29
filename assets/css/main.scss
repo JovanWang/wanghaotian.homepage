@@ -41,3 +41,339 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/* Personal homepage refinements */
+
+:root {
+  --wht-ink: #1e2933;
+  --wht-muted: #5f6c72;
+  --wht-line: #d7e2dc;
+  --wht-surface: #ffffff;
+  --wht-soft: #f3faf6;
+  --wht-sky: #eef7fb;
+  --wht-teal: #13766f;
+  --wht-teal-dark: #0f5f5a;
+  --wht-amber: #a76316;
+}
+
+.page__content {
+  color: var(--wht-ink);
+}
+
+.page__content h2 {
+  margin-top: 2.1rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid var(--wht-line);
+  color: var(--wht-ink);
+}
+
+.page__content h3 {
+  color: var(--wht-ink);
+}
+
+.page__content a {
+  color: var(--wht-teal);
+}
+
+.home-hero {
+  margin: 0 0 2rem;
+  padding: 2.1rem;
+  border: 1px solid var(--wht-line);
+  border-top: 5px solid var(--wht-teal);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(243, 250, 246, .96), rgba(238, 247, 251, .88)),
+    var(--wht-surface);
+}
+
+.home-kicker {
+  margin-bottom: .55rem;
+  color: var(--wht-teal-dark);
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.home-hero h1 {
+  margin: 0 0 .5rem;
+  color: var(--wht-ink);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.home-subtitle {
+  max-width: 46rem;
+  margin: 0 0 1.35rem;
+  color: var(--wht-muted);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+.home-actions,
+.pub-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  align-items: center;
+}
+
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.35rem;
+  max-width: 100%;
+  padding: .52rem .78rem;
+  border: 1px solid var(--wht-line);
+  border-radius: 8px;
+  background: var(--wht-surface);
+  color: var(--wht-ink) !important;
+  font-size: .88rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+  box-shadow: 0 1px 0 rgba(30, 41, 51, .04);
+  transition: border-color .16s ease, box-shadow .16s ease, transform .16s ease;
+}
+
+.home-button i {
+  margin-right: .42rem;
+  color: var(--wht-teal);
+}
+
+.home-button:hover,
+.home-button:focus {
+  border-color: rgba(19, 118, 111, .45);
+  box-shadow: 0 6px 18px rgba(19, 118, 111, .12);
+  transform: translateY(-1px);
+}
+
+.home-button.primary {
+  border-color: var(--wht-teal);
+  background: var(--wht-teal);
+  color: #ffffff !important;
+}
+
+.home-button.primary i {
+  color: #ffffff;
+}
+
+.metrics-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .8rem;
+  margin: 1.5rem 0 1.9rem;
+}
+
+.metrics-strip div {
+  padding: .95rem 1rem;
+  border: 1px solid var(--wht-line);
+  border-radius: 8px;
+  background: var(--wht-surface);
+}
+
+.metrics-strip strong {
+  display: block;
+  color: var(--wht-teal-dark);
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+.metrics-strip span {
+  display: block;
+  margin-top: .25rem;
+  color: var(--wht-muted);
+  font-size: .82rem;
+  line-height: 1.35;
+}
+
+.section-anchor {
+  scroll-margin-top: 5rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .85rem;
+  margin: 1rem 0 1.85rem;
+}
+
+.research-grid article,
+.selected-pubs article,
+.news-list article,
+.pub-item {
+  border: 1px solid var(--wht-line);
+  border-radius: 8px;
+  background: var(--wht-surface);
+}
+
+.research-grid article {
+  padding: 1rem 1rem .95rem;
+  border-left: 4px solid var(--wht-teal);
+}
+
+.research-grid h3,
+.selected-pubs h3,
+.pub-item h3 {
+  margin-top: 0;
+  margin-bottom: .35rem;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.research-grid p,
+.selected-pubs p,
+.pub-item p,
+.news-list p {
+  margin: 0;
+  color: var(--wht-muted);
+  line-height: 1.58;
+}
+
+.selected-pubs {
+  display: grid;
+  gap: .75rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.selected-pubs article {
+  position: relative;
+  padding: 1rem 1rem 1rem 4.8rem;
+}
+
+.pub-year {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  min-width: 2.9rem;
+  padding: .22rem .38rem;
+  border-radius: 8px;
+  background: var(--wht-soft);
+  color: var(--wht-teal-dark);
+  font-size: .78rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.news-list {
+  display: grid;
+  gap: .65rem;
+  margin: 1rem 0;
+}
+
+.news-list article {
+  display: grid;
+  grid-template-columns: 6.3rem minmax(0, 1fr);
+  gap: .8rem;
+  align-items: start;
+  padding: .85rem 1rem;
+}
+
+.news-list time {
+  color: var(--wht-amber);
+  font-size: .84rem;
+  font-weight: 800;
+}
+
+.pub-toolbar {
+  margin-bottom: 1.2rem;
+}
+
+.pub-section {
+  margin-top: 1.4rem;
+}
+
+ol.pub-list {
+  margin-left: 1.25rem;
+}
+
+ol.pub-list > li {
+  margin: 0 0 .95rem;
+  padding-left: .2rem;
+}
+
+ol.pub-list > li::marker {
+  color: var(--wht-teal-dark);
+  font-weight: 800;
+}
+
+.pub-item {
+  padding: 1rem 1.05rem;
+}
+
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-bottom: .55rem;
+}
+
+.pub-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.45rem;
+  padding: .18rem .45rem;
+  border-radius: 8px;
+  background: var(--wht-soft);
+  color: var(--wht-teal-dark);
+  font-size: .72rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.pub-meta span:first-child {
+  background: var(--wht-sky);
+  color: #22566a;
+}
+
+.pub-note {
+  margin-top: .45rem !important;
+  color: var(--wht-amber) !important;
+  font-size: .86rem;
+  font-weight: 700;
+}
+
+.author__avatar img {
+  border: 3px solid #ffffff;
+  box-shadow: 0 8px 24px rgba(30, 41, 51, .14);
+}
+
+@media (max-width: 720px) {
+  .home-hero {
+    padding: 1.35rem;
+  }
+
+  .metrics-strip,
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .selected-pubs article {
+    padding-left: 1rem;
+  }
+
+  .pub-year {
+    position: static;
+    display: inline-block;
+    margin-bottom: .55rem;
+  }
+
+  .news-list article {
+    grid-template-columns: 1fr;
+    gap: .25rem;
+  }
+
+  .home-button {
+    width: 100%;
+  }
+}

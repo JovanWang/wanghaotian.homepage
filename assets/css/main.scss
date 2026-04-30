@@ -366,12 +366,46 @@
   overflow: hidden;
 }
 
-.visitor-globe-live {
+.visitor-live-frame {
   display: grid;
   place-items: center;
   width: 100%;
-  min-height: 18rem;
+  margin: 0 auto;
   overflow: hidden;
+}
+
+.visitor-live-frame > script {
+  display: none;
+}
+
+.visitor-live-frame > a,
+.visitor-live-frame > div {
+  display: grid;
+  place-items: center;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+.visitor-live-frame iframe,
+.visitor-live-frame img,
+.visitor-live-frame canvas,
+.visitor-live-frame object,
+.visitor-live-frame embed {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  border: 0;
+  margin: 0 auto !important;
+}
+
+.visitor-globe-live {
+  width: min(100%, 28rem);
+  aspect-ratio: 1;
+  min-height: 0;
+  border-radius: 8px;
 }
 
 .visitor-globe-live iframe,
@@ -379,33 +413,30 @@
 .visitor-globe-live canvas,
 .visitor-globe-live object,
 .visitor-globe-live embed {
-  display: block !important;
-  width: min(100%, 40rem) !important;
-  max-width: 100% !important;
-  min-width: min(100%, 18rem);
-  border: 0;
-  margin: 0 auto !important;
-}
-
-.visitor-globe-live iframe,
-.visitor-globe-live canvas,
-.visitor-globe-live object,
-.visitor-globe-live embed {
-  aspect-ratio: 16 / 9;
-  height: min(58vw, 22rem) !important;
-  min-height: 16rem;
-}
-
-.visitor-globe-live img {
-  height: auto !important;
-  max-height: 22rem;
+  aspect-ratio: 1;
+  height: 100% !important;
+  min-height: 0 !important;
   object-fit: contain;
 }
 
-.visitor-globe-live > a {
-  display: grid;
-  place-items: center;
-  width: 100%;
+.visitor-map-live {
+  width: min(100%, 40rem);
+  aspect-ratio: 16 / 9;
+  min-height: 16rem;
+}
+
+.visitor-map-live iframe,
+.visitor-map-live canvas,
+.visitor-map-live object,
+.visitor-map-live embed {
+  height: 100% !important;
+  min-height: 16rem;
+}
+
+.visitor-map-live img {
+  height: auto !important;
+  max-height: 22rem;
+  object-fit: contain;
 }
 
 .visitor-globe-placeholder {

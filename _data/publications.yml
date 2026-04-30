@@ -126,29 +126,29 @@
   year: 2026
   tags: ["其他", "IEEE TPDS", "CCF A"]
 
-- category: "other"
+- category: "corresponding"
   title: "EBFL: An Efficient Blockchain Framework for Federated Learning Services"
   authors: "Yin Ze, Wang Haotian, Liu Chubo, Ding Yan, Li Keqin, Li Kenli"
   venue: "IEEE Transactions on Services Computing"
   details: "19(1):281-294, 2026"
   year: 2026
-  tags: ["其他", "IEEE TSC", "CCF A"]
+  tags: ["通讯作者", "IEEE TSC", "CCF A"]
 
-- category: "other"
+- category: "corresponding"
   title: "HiFA: A High-Performance and Flexible Acceleration Framework for Large-Size Number Theoretic Transform"
   authors: "Hu Qilin, Wang Haotian, Liu Chubo, Li Keqin, Li Kenli"
   venue: "ACM Transactions on Reconfigurable Technology and Systems"
   details: "18(4):54:1-54:32, 2025"
   year: 2025
-  tags: ["其他", "ACM TRETS", "CCF B"]
+  tags: ["通讯作者", "ACM TRETS", "CCF B"]
 
-- category: "other"
+- category: "corresponding"
   title: "SASTC: Spatial-Aware Sparse Tensor Completion for Large-Scale Traffic Data Recovery"
   authors: "Ouyang Renqiu, Wang Haotian, Hu Yikun, Hu Rong, Yang Wangdong, Li Kenli"
   venue: "IEEE Internet of Things Journal"
   details: "12(24):54690-54698, 2025"
   year: 2025
-  tags: ["其他", "IEEE IoTJ", "CCF C"]
+  tags: ["通讯作者", "IEEE IoTJ", "CCF C"]
 
 - category: "other"
   title: "High Performance OpenCL-Based GEMM Kernel Auto-Tuned by Bayesian Optimization"
@@ -158,13 +158,13 @@
   year: 2025
   tags: ["其他", "IEEE TPDS", "CCF A"]
 
-- category: "other"
+- category: "corresponding"
   title: "An Input-Aware Sparse Tensor Compiler Empowered by Vectorized Acceleration"
   authors: "He Xianhao, Wang Haotian, Zhang Jiapeng, Yang Wangdong, Chronopoulos Anthony Theodore, Li Kenli"
   venue: "Proceedings of the 62nd ACM/IEEE Design Automation Conference"
   details: "1-7, 2025"
   year: 2025
-  tags: ["其他", "DAC", "CCF A"]
+  tags: ["通讯作者", "DAC", "CCF A"]
 
 - category: "other"
   title: "A Privacy-Preserving Scheme with High Utility over Data Streams in Mobile Crowdsensing"

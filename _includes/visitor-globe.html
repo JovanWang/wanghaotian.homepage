@@ -1,0 +1,20 @@
+{% assign clustrmaps_id = site.visitors.clustrmaps_id | default: "" %}
+{% assign globe_width = site.visitors.globe_width | default: 220 %}
+{% assign globe_height = site.visitors.globe_height | default: 220 %}
+
+{% if clustrmaps_id and clustrmaps_id != "" %}
+  <div class="visitor-globe-live">
+    <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d={{ clustrmaps_id }}&w={{ globe_width }}&h={{ globe_height }}" async></script>
+  </div>
+{% else %}
+  <div class="visitor-globe-placeholder" role="img" aria-label="Global visitor map placeholder">
+    <div class="visitor-globe-grid"></div>
+    <div class="visitor-route route-one"></div>
+    <div class="visitor-route route-two"></div>
+    <span class="visitor-dot dot-one"></span>
+    <span class="visitor-dot dot-two"></span>
+    <span class="visitor-dot dot-three"></span>
+    <span class="visitor-dot dot-four"></span>
+  </div>
+  <p class="visitor-widget-note">Live visitor globe will activate after the public tracker is connected.</p>
+{% endif %}

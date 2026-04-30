@@ -13,6 +13,13 @@ redirect_from:
   <div class="home-kicker">High-performance sparse computing · Tensor compilers · Heterogeneous systems</div>
   <h1>High-Performance Sparse Computing</h1>
   <p class="home-subtitle">Associate Researcher and HNU Hexi Postdoctoral Fellow working on sparse tensor computing, heterogeneous parallel modeling, tensor compiler optimization, and AI/HPC-oriented code generation.</p>
+  <div class="hero-signals" aria-label="Research keywords">
+    <span>SpMV</span>
+    <span>SpTTM</span>
+    <span>SpTC</span>
+    <span>Tensor Compiler</span>
+    <span>AI CodeGen</span>
+  </div>
   <div class="home-actions">
     <a class="home-button primary" href="{{ base_path }}/publications/"><i class="fa-solid fa-book-open"></i> Publications</a>
     <a class="home-button" href="https://scholar.google.com/citations?user=64Ta-Z0AAAAJ&hl=zh-CN"><i class="ai ai-google-scholar"></i> Google Scholar</a>
@@ -35,15 +42,15 @@ My research focuses on sparse tensor computing, heterogeneous parallel modeling,
 
 <section class="metrics-strip" aria-label="Research snapshot">
   <div>
-    <strong>20+</strong>
+    <strong class="metric-value" data-count="20" data-suffix="+">20+</strong>
     <span>journal and conference papers</span>
   </div>
   <div>
-    <strong>17</strong>
+    <strong class="metric-value" data-count="17">17</strong>
     <span>pending patent applications</span>
   </div>
   <div>
-    <strong>3</strong>
+    <strong class="metric-value" data-count="3">3</strong>
     <span>software copyrights in progress</span>
   </div>
 </section>
@@ -92,6 +99,23 @@ My research focuses on sparse tensor computing, heterogeneous parallel modeling,
 </div>
 
 <p><a class="text-link" href="{{ base_path }}/publications/">View full publication list <i class="fa-solid fa-arrow-right"></i></a></p>
+
+## Visitors
+
+<section class="visitor-panel">
+  <div class="visitor-copy">
+    <h3>Global Reach</h3>
+    <p>A visitor-location globe can show where academic readers, collaborators, and students are visiting from around the world.</p>
+    <div class="visitor-badges">
+      <span>Live map ready</span>
+      <span>GitHub Pages friendly</span>
+      <span>ClustrMaps compatible</span>
+    </div>
+  </div>
+  <div class="visitor-widget">
+    {% include visitor-globe.html %}
+  </div>
+</section>
 
 ## Intellectual Property
 

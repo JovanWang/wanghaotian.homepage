@@ -17,6 +17,13 @@ url                      : https://jovanwang.github.io/wanghaotian.homepage # th
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JovanWang/wanghaotian.homepage"
 
+# Visitor globe widget. Register the site at ClustrMaps and paste the `d=...`
+# key here to enable a real visitor-location globe.
+visitors:
+  clustrmaps_id          :
+  globe_width            : 220
+  globe_height           : 220
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html

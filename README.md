@@ -11,7 +11,10 @@ Personal academic homepage for Haotian Wang, based on the Academic Pages / Minim
 - Site configuration: `_config.yml`
 - Custom styling: `assets/css/main.scss`
 - Homepage effects: `assets/js/homepage-effects.js`
-- Visitor globe include: `_includes/visitor-globe.html`
+- Publications data: `_data/publications.yml`
+- Patent data: `_data/patents.yml`
+- Software copyright data: `_data/software.yml`
+- Visitor map include: `_includes/visitor-globe.html`
 
 ## Local Preview
 
@@ -42,6 +45,14 @@ The repository is configured for GitHub Pages-style deployment. Before publishin
 - The official job title and affiliation are current.
 - Publication metadata matches Google Scholar / DBLP / publisher pages.
 - No private contact information or unpublished project details are added.
+
+## Editable Data Files
+
+Publications, patents, and software copyrights are rendered from data files, so routine updates do not require editing page templates.
+
+- `_data/publications.yml`: use `category: "first"`, `category: "corresponding"`, or `category: "other"` to control the publication section.
+- `_data/patents.yml`: title-only patent list.
+- `_data/software.yml`: title-only software copyright list.
 
 ## Visitor Globe
 

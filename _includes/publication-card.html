@@ -1,0 +1,13 @@
+<li>
+  <article class="pub-item">
+    {% if include.pub.tags %}
+      <div class="pub-meta">
+        {% for tag in include.pub.tags %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <h3>{{ include.pub.title }}</h3>
+    <p>{{ include.pub.authors }}. <em>{{ include.pub.venue }}</em>{% if include.pub.details %}, {{ include.pub.details }}{% endif %}.</p>
+  </article>
+</li>

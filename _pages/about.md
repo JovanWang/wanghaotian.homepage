@@ -11,7 +11,7 @@ redirect_from:
 
 <section class="home-hero">
   <div class="home-kicker">High-performance sparse computing · Tensor compilers · Heterogeneous systems</div>
-  <h1>High-Performance Sparse Computing</h1>
+  <h3>High-Performance Sparse Computing</h3>
   <p class="home-subtitle">Associate Researcher and HNU Hexi Postdoctoral Fellow working on sparse tensor computing, heterogeneous parallel modeling, tensor compiler optimization, and AI/HPC-oriented code generation.</p>
   <div class="hero-signals" aria-label="Research keywords">
     <span>SpMV</span>
@@ -102,7 +102,7 @@ My research focuses on sparse tensor computing, heterogeneous parallel modeling,
 
 ## Visitors
 
-<section class="visitor-panel">
+<section class="visitor-panel visitor-panel-wide">
   <div class="visitor-copy">
     <h3>Global Reach</h3>
     <p>A visitor-location map can show where academic readers, collaborators, and students are visiting from around the world.</p>

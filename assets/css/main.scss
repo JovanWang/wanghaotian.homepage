@@ -321,11 +321,15 @@
   gap: 1rem;
   align-items: start;
   margin: 1rem 0 1.8rem;
-  padding: 1.1rem;
+  padding: clamp(1.1rem, 2.2vw, 1.8rem);
   border-left: 4px solid var(--wht-indigo);
   background:
     linear-gradient(135deg, rgba(238, 247, 251, .76), rgba(255, 255, 255, .96)),
     var(--wht-surface);
+}
+
+.visitor-panel-wide {
+  gap: 1.25rem;
 }
 
 .visitor-copy h3 {
@@ -378,8 +382,7 @@
   display: none;
 }
 
-.visitor-live-frame > a,
-.visitor-live-frame > div {
+.visitor-live-frame > *:not(script):not(noscript) {
   display: grid;
   place-items: center;
   width: 100% !important;
@@ -392,7 +395,8 @@
 .visitor-live-frame img,
 .visitor-live-frame canvas,
 .visitor-live-frame object,
-.visitor-live-frame embed {
+.visitor-live-frame embed,
+.visitor-live-frame svg {
   display: block !important;
   width: 100% !important;
   max-width: 100% !important;
@@ -402,7 +406,7 @@
 }
 
 .visitor-globe-live {
-  width: min(100%, 28rem);
+  width: min(100%, 38rem);
   aspect-ratio: 1;
   min-height: 0;
   border-radius: 8px;
@@ -412,7 +416,8 @@
 .visitor-globe-live img,
 .visitor-globe-live canvas,
 .visitor-globe-live object,
-.visitor-globe-live embed {
+.visitor-globe-live embed,
+.visitor-globe-live svg {
   aspect-ratio: 1;
   height: 100% !important;
   min-height: 0 !important;

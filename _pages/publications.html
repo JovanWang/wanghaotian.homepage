@@ -14,32 +14,9 @@ author_profile: true
   </div>
 {% endif %}
 
-{% assign first_publications = site.data.publications | where: "category", "first" %}
-{% assign corresponding_publications = site.data.publications | where: "category", "corresponding" %}
-{% assign other_publications = site.data.publications | where: "category", "other" %}
-
 <section class="pub-section">
-  <h2>First-author Publications</h2>
   <ol class="pub-list">
-    {% for pub in first_publications %}
-      {% include publication-card.html pub=pub %}
-    {% endfor %}
-  </ol>
-</section>
-
-<section class="pub-section">
-  <h2>Corresponding-author Publications</h2>
-  <ol class="pub-list">
-    {% for pub in corresponding_publications %}
-      {% include publication-card.html pub=pub %}
-    {% endfor %}
-  </ol>
-</section>
-
-<section class="pub-section">
-  <h2>Other Publications</h2>
-  <ol class="pub-list">
-    {% for pub in other_publications %}
+    {% for pub in site.data.publications %}
       {% include publication-card.html pub=pub %}
     {% endfor %}
   </ol>

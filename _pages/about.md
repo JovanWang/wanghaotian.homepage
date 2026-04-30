@@ -100,23 +100,6 @@ My research focuses on sparse tensor computing, heterogeneous parallel modeling,
 
 <p><a class="text-link" href="{{ base_path }}/publications/">View full publication list <i class="fa-solid fa-arrow-right"></i></a></p>
 
-## Visitors
-
-<section class="visitor-panel visitor-panel-wide">
-  <div class="visitor-copy">
-    <h3>Global Reach</h3>
-    <p>A visitor-location map can show where academic readers, collaborators, and students are visiting from around the world.</p>
-    <div class="visitor-badges">
-      <span>Live map ready</span>
-      <span>GitHub Pages friendly</span>
-      <span>MapMyVisitors enabled</span>
-    </div>
-  </div>
-  <div class="visitor-widget">
-    {% include visitor-globe.html %}
-  </div>
-</section>
-
 ## Intellectual Property
 
 <div class="output-summary">
@@ -140,3 +123,11 @@ My research focuses on sparse tensor computing, heterogeneous parallel modeling,
     <p><a href="https://www.chinapostdoctor.org.cn/prod-api/profile/info/fujian/20240701/6b03cd24-57c0-49fc-b1f3-b1cecd867ff3.pdf">Approved China National Postdoctoral Program for Innovative Talents.</a></p>
   </article>
 </div>
+
+## Visitors
+
+<section class="visitor-panel visitor-panel-wide">
+  <div class="visitor-widget">
+    {% include visitor-globe.html %}
+  </div>
+</section>

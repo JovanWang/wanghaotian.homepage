@@ -1,3 +1,14 @@
+# Display order: first-author, co-first-author, corresponding-author, then other publications.
+# Within each group, keep entries sorted by year from newest to oldest.
+
+- category: "first"
+  title: "SparseMode: 用于高效 SpMV 向量化代码生成的稀疏编译框架"
+  authors: "王昊天，丁岩，何贤浩，肖国庆，阳王东"
+  venue: "计算机研究与发展"
+  details: "62(6):1443-1454, 2025"
+  year: 2025
+  tags: ["一作", "计算机研究与发展", "CCF A 中文"]
+
 - category: "first"
   title: "A Context-Awareness and Hardware-Friendly Sparse Matrix Multiplication Kernel for CNN Inference Acceleration"
   authors: "Wang Haotian, Ding Yan, Liu Yumeng, Liu Weichen, Liu Chubo, Yang Wangdong, Li Kenli"
@@ -31,12 +42,28 @@
   tags: ["一作", "JPDC", "CCF B"]
 
 - category: "first"
-  title: "SparseMode: 用于高效 SpMV 向量化代码生成的稀疏编译框架"
-  authors: "王昊天，丁岩，何贤浩，肖国庆，阳王东"
-  venue: "计算机研究与发展"
-  details: "62(6):1443-1454, 2025"
-  year: 2025
-  tags: ["一作", "计算机研究与发展", "CCF A 中文"]
+  title: "Good or Mediocre? A Deep Reinforcement Learning Approach for Taxi Revenue Efficiency Optimization"
+  authors: "Wang Haotian, Rong Huigui, Zhang Qun, Liu Daibo, Hu Chunhua, Hu Yupeng"
+  venue: "IEEE Transactions on Network Science and Engineering"
+  details: "7(4):3018-3027, 2020"
+  year: 2020
+  tags: ["一作", "IEEE TNSE", "SCI Q2"]
+
+- category: "co-first"
+  title: "BCB-SpTC: An Efficient Sparse High-Dimensional Tensor Contraction Employing Tensor Core Acceleration"
+  authors: "Hu Rong, Wang Haotian, Yang Wangdong, Ouyang Renqiu, Li Keqin, Li Kenli"
+  venue: "IEEE Transactions on Parallel and Distributed Systems"
+  details: "2024"
+  year: 2024
+  tags: ["共同一作", "IEEE TPDS", "CCF A"]
+
+- category: "corresponding"
+  title: "EBFL: An Efficient Blockchain Framework for Federated Learning Services"
+  authors: "Yin Ze, Wang Haotian, Liu Chubo, Ding Yan, Li Keqin, Li Kenli"
+  venue: "IEEE Transactions on Services Computing"
+  details: "19(1):281-294, 2026"
+  year: 2026
+  tags: ["通讯作者", "IEEE TSC", "CCF A"]
 
 - category: "corresponding"
   title: "An Input-Aware Sparse Tensor Compiler Empowered by Vectorized Acceleration"
@@ -46,29 +73,61 @@
   year: 2025
   tags: ["通讯作者", "DAC", "CCF A"]
 
-- category: "first"
-  title: "BCB-SpTC: An Efficient Sparse High-Dimensional Tensor Contraction Employing Tensor Core Acceleration"
-  authors: "Hu Rong, Wang Haotian, Yang Wangdong, Ouyang Renqiu, Li Keqin, Li Kenli"
-  venue: "IEEE Transactions on Parallel and Distributed Systems"
-  details: "2024"
-  year: 2024
-  tags: ["共同一作", "IEEE TPDS", "CCF A"]
+- category: "corresponding"
+  title: "HiFA: A High-Performance and Flexible Acceleration Framework for Large-Size Number Theoretic Transform"
+  authors: "Hu Qilin, Wang Haotian, Liu Chubo, Li Keqin, Li Kenli"
+  venue: "ACM Transactions on Reconfigurable Technology and Systems"
+  details: "18(4):54:1-54:32, 2025"
+  year: 2025
+  tags: ["通讯作者", "ACM TRETS", "CCF B"]
 
-- category: "first"
-  title: "Good or Mediocre? A Deep Reinforcement Learning Approach for Taxi Revenue Efficiency Optimization"
-  authors: "Wang Haotian, Rong Huigui, Zhang Qun, Liu Daibo, Hu Chunhua, Hu Yupeng"
-  venue: "IEEE Transactions on Network Science and Engineering"
-  details: "7(4):3018-3027, 2020"
-  year: 2020
-  tags: ["一作", "IEEE TNSE", "SCI Q2"]
+- category: "corresponding"
+  title: "SASTC: Spatial-Aware Sparse Tensor Completion for Large-Scale Traffic Data Recovery"
+  authors: "Ouyang Renqiu, Wang Haotian, Hu Yikun, Hu Rong, Yang Wangdong, Li Kenli"
+  venue: "IEEE Internet of Things Journal"
+  details: "12(24):54690-54698, 2025"
+  year: 2025
+  tags: ["通讯作者", "IEEE IoTJ", "CCF C"]
+
+- category: "corresponding"
+  title: "An Input-Aware Sparse Tensor Compiler Empowered by Vectorized Acceleration"
+  authors: "He Xianhao, Wang Haotian, Zhang Jiapeng, Yang Wangdong, Chronopoulos Anthony Theodore, Li Kenli"
+  venue: "Proceedings of the 62nd ACM/IEEE Design Automation Conference"
+  details: "1-7, 2025"
+  year: 2025
+  tags: ["通讯作者", "DAC", "CCF A"]
 
 - category: "other"
-  title: "异构混合并行计算综述"
-  authors: "阳王东，王昊天，张宇峰，林圣乐，蔡沁耘"
-  venue: "计算机科学"
-  details: "47(8), 2020"
-  year: 2020
-  tags: ["其他", "计算机科学", "CCF B 中文"]
+  title: "Adaptive Block-Wise Mapping with Intra-Block Resource Allocation for Multi-DNN Workloads on Heterogeneous Accelerator Systems"
+  authors: "Nie Zhenyu, Wang Haotian, Chronopoulos Anthony Theodore, Tang Zhuo, Li Kenli, Liu Chubo, Xiao Zheng"
+  venue: "IEEE Transactions on Parallel and Distributed Systems"
+  details: "37(4):1015-1031, 2026"
+  year: 2026
+  tags: ["其他", "IEEE TPDS", "CCF A"]
+
+- category: "other"
+  title: "A Novel Completion Method for Sparse Traffic Data Imputation"
+  authors: "Ouyang Renqiu, Hu Yikun, Wang Haotian, Hu Rong, Yang Wangdong, Li Kenli"
+  venue: "IEEE Intelligent Transportation Systems Magazine"
+  details: "17(3):96-108, 2025"
+  year: 2025
+  tags: ["其他", "IEEE ITSM", "SCI Q3"]
+
+- category: "other"
+  title: "High Performance OpenCL-Based GEMM Kernel Auto-Tuned by Bayesian Optimization"
+  authors: "Lin Shengle, Xiao Guoqing, Wang Haotian, Yang Wangdong, Li Kenli, Li Keqin"
+  venue: "IEEE Transactions on Parallel and Distributed Systems"
+  details: "36(9):1985-1997, 2025"
+  year: 2025
+  tags: ["其他", "IEEE TPDS", "CCF A"]
+
+- category: "other"
+  title: "A Privacy-Preserving Scheme with High Utility over Data Streams in Mobile Crowdsensing"
+  authors: "Gong Zhimao, Zhang Jiapeng, Wang Haotian, Duan Mingxing, Li Keqin, Li Kenli"
+  venue: "IEEE Transactions on Information Forensics and Security"
+  details: "20:5372-5385, 2025"
+  year: 2025
+  tags: ["其他", "IEEE TIFS", "CCF A"]
 
 - category: "other"
   title: "TAPMM: A Traffic-Aware Page Mapping Method for Multi-Level NUMA Systems"
@@ -77,6 +136,14 @@
   details: "2024"
   year: 2024
   tags: ["其他", "DAC", "CCF A"]
+
+- category: "other"
+  title: "HPS Cholesky: Hierarchical Parallelized Supernodal Cholesky with Adaptive Parameters"
+  authors: "Lin Shengle, Yang Wangdong, Hu Yikun, Cai Qinyun, Dai Minlu, Wang Haotian, Li Kenli"
+  venue: "ACM Transactions on Parallel Computing"
+  details: "11(1), 2024"
+  year: 2024
+  tags: ["其他", "ACM TOPC", "ACM Trans."]
 
 - category: "other"
   title: "STM-Multifrontal QR: Streaming Task Mapping Multifrontal QR Factorization Empowered by GCN"
@@ -95,14 +162,6 @@
   tags: ["其他", "计算机科学", "CCF B 中文"]
 
 - category: "other"
-  title: "HPS Cholesky: Hierarchical Parallelized Supernodal Cholesky with Adaptive Parameters"
-  authors: "Lin Shengle, Yang Wangdong, Hu Yikun, Cai Qinyun, Dai Minlu, Wang Haotian, Li Kenli"
-  venue: "ACM Transactions on Parallel Computing"
-  details: "11(1), 2024"
-  year: 2024
-  tags: ["其他", "ACM TOPC", "ACM Trans."]
-
-- category: "other"
   title: "Parallel Sparse LU Factorization with Machine-Learning Method on Multi-Core Processors"
   authors: "Zhou Junsheng, Yang Wangdong, Dai Minlu, Cai Qinyun, Wang Haotian, Li Kenli"
   venue: "7th International Conference on Systems and Informatics"
@@ -111,65 +170,9 @@
   tags: ["其他", "ICSAI", "EI"]
 
 - category: "other"
-  title: "A Novel Completion Method for Sparse Traffic Data Imputation"
-  authors: "Ouyang Renqiu, Hu Yikun, Wang Haotian, Hu Rong, Yang Wangdong, Li Kenli"
-  venue: "IEEE Intelligent Transportation Systems Magazine"
-  details: "17(3):96-108, 2025"
-  year: 2025
-  tags: ["其他", "IEEE ITSM", "SCI Q3"]
-
-- category: "other"
-  title: "Adaptive Block-Wise Mapping with Intra-Block Resource Allocation for Multi-DNN Workloads on Heterogeneous Accelerator Systems"
-  authors: "Nie Zhenyu, Wang Haotian, Chronopoulos Anthony Theodore, Tang Zhuo, Li Kenli, Liu Chubo, Xiao Zheng"
-  venue: "IEEE Transactions on Parallel and Distributed Systems"
-  details: "37(4):1015-1031, 2026"
-  year: 2026
-  tags: ["其他", "IEEE TPDS", "CCF A"]
-
-- category: "corresponding"
-  title: "EBFL: An Efficient Blockchain Framework for Federated Learning Services"
-  authors: "Yin Ze, Wang Haotian, Liu Chubo, Ding Yan, Li Keqin, Li Kenli"
-  venue: "IEEE Transactions on Services Computing"
-  details: "19(1):281-294, 2026"
-  year: 2026
-  tags: ["通讯作者", "IEEE TSC", "CCF A"]
-
-- category: "corresponding"
-  title: "HiFA: A High-Performance and Flexible Acceleration Framework for Large-Size Number Theoretic Transform"
-  authors: "Hu Qilin, Wang Haotian, Liu Chubo, Li Keqin, Li Kenli"
-  venue: "ACM Transactions on Reconfigurable Technology and Systems"
-  details: "18(4):54:1-54:32, 2025"
-  year: 2025
-  tags: ["通讯作者", "ACM TRETS", "CCF B"]
-
-- category: "corresponding"
-  title: "SASTC: Spatial-Aware Sparse Tensor Completion for Large-Scale Traffic Data Recovery"
-  authors: "Ouyang Renqiu, Wang Haotian, Hu Yikun, Hu Rong, Yang Wangdong, Li Kenli"
-  venue: "IEEE Internet of Things Journal"
-  details: "12(24):54690-54698, 2025"
-  year: 2025
-  tags: ["通讯作者", "IEEE IoTJ", "CCF C"]
-
-- category: "other"
-  title: "High Performance OpenCL-Based GEMM Kernel Auto-Tuned by Bayesian Optimization"
-  authors: "Lin Shengle, Xiao Guoqing, Wang Haotian, Yang Wangdong, Li Kenli, Li Keqin"
-  venue: "IEEE Transactions on Parallel and Distributed Systems"
-  details: "36(9):1985-1997, 2025"
-  year: 2025
-  tags: ["其他", "IEEE TPDS", "CCF A"]
-
-- category: "corresponding"
-  title: "An Input-Aware Sparse Tensor Compiler Empowered by Vectorized Acceleration"
-  authors: "He Xianhao, Wang Haotian, Zhang Jiapeng, Yang Wangdong, Chronopoulos Anthony Theodore, Li Kenli"
-  venue: "Proceedings of the 62nd ACM/IEEE Design Automation Conference"
-  details: "1-7, 2025"
-  year: 2025
-  tags: ["通讯作者", "DAC", "CCF A"]
-
-- category: "other"
-  title: "A Privacy-Preserving Scheme with High Utility over Data Streams in Mobile Crowdsensing"
-  authors: "Gong Zhimao, Zhang Jiapeng, Wang Haotian, Duan Mingxing, Li Keqin, Li Kenli"
-  venue: "IEEE Transactions on Information Forensics and Security"
-  details: "20:5372-5385, 2025"
-  year: 2025
-  tags: ["其他", "IEEE TIFS", "CCF A"]
+  title: "异构混合并行计算综述"
+  authors: "阳王东，王昊天，张宇峰，林圣乐，蔡沁耘"
+  venue: "计算机科学"
+  details: "47(8), 2020"
+  year: 2020
+  tags: ["其他", "计算机科学", "CCF B 中文"]

@@ -17,9 +17,12 @@ url                      : https://jovanwang.github.io/wanghaotian.homepage # th
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JovanWang/wanghaotian.homepage"
 
-# Visitor globe widget. Register the site at ClustrMaps and paste the `d=...`
-# key here to enable a real visitor-location globe.
+# Visitor map widget. Paste the `d=...` key from MapMyVisitors or ClustrMaps.
 visitors:
+  mapmyvisitors_id       : "pNOuigPqcDzoPIBXPNi-qmFQfvr95zxqYSlEMnyvGIE"
+  mapmyvisitors_color    : "ffffff"
+  mapmyvisitors_width    : "a"
+  mapmyvisitors_stats_url: "https://mapmyvisitors.com/web/1c47f"
   clustrmaps_id          :
   globe_width            : 220
   globe_height           : 220

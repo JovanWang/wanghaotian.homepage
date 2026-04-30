@@ -45,15 +45,20 @@ The repository is configured for GitHub Pages-style deployment. Before publishin
 
 ## Visitor Globe
 
-The homepage includes a Visitors section. To activate the real ClustrMaps globe:
+The homepage includes a Visitors section. To activate a real MapMyVisitors map:
 
-1. Register this site at ClustrMaps.
-2. Copy the `d=...` key from its `globe.js` snippet.
+1. Register this site at MapMyVisitors.
+2. Copy the `d=...` key from its `map.js` snippet.
 3. Paste it into `_config.yml`:
 
 ```yaml
 visitors:
-  clustrmaps_id: "YOUR_KEY"
+  mapmyvisitors_id: "YOUR_KEY"
+  mapmyvisitors_color: "ffffff"
+  mapmyvisitors_width: "a"
+  mapmyvisitors_stats_url: "https://mapmyvisitors.com/web/YOUR_ID"
   globe_width: 220
   globe_height: 220
 ```
+
+`clustrmaps_id` is still supported as a fallback if you switch providers later.

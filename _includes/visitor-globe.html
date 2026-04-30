@@ -1,8 +1,21 @@
+{% assign mapmyvisitors_id = site.visitors.mapmyvisitors_id | default: "" %}
+{% assign mapmyvisitors_color = site.visitors.mapmyvisitors_color | default: "ffffff" %}
+{% assign mapmyvisitors_width = site.visitors.mapmyvisitors_width | default: "a" %}
+{% assign mapmyvisitors_stats_url = site.visitors.mapmyvisitors_stats_url | default: "https://mapmyvisitors.com" %}
 {% assign clustrmaps_id = site.visitors.clustrmaps_id | default: "" %}
 {% assign globe_width = site.visitors.globe_width | default: 220 %}
 {% assign globe_height = site.visitors.globe_height | default: 220 %}
 
-{% if clustrmaps_id and clustrmaps_id != "" %}
+{% if mapmyvisitors_id and mapmyvisitors_id != "" %}
+  <div class="visitor-globe-live">
+    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ mapmyvisitors_id }}&cl={{ mapmyvisitors_color }}&w={{ mapmyvisitors_width }}"></script>
+    <noscript>
+      <a href="{{ mapmyvisitors_stats_url }}" title="Visit tracker">
+        <img src="https://mapmyvisitors.com/map.png?d={{ mapmyvisitors_id }}&cl={{ mapmyvisitors_color }}" alt="Visit tracker">
+      </a>
+    </noscript>
+  </div>
+{% elsif clustrmaps_id and clustrmaps_id != "" %}
   <div class="visitor-globe-live">
     <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d={{ clustrmaps_id }}&w={{ globe_width }}&h={{ globe_height }}" async></script>
   </div>
@@ -16,5 +29,5 @@
     <span class="visitor-dot dot-three"></span>
     <span class="visitor-dot dot-four"></span>
   </div>
-  <p class="visitor-widget-note">Live visitor globe will activate after the public tracker is connected.</p>
+  <p class="visitor-widget-note">Live visitor map will activate after the public tracker is connected.</p>
 {% endif %}

@@ -105,11 +105,11 @@ My research focuses on sparse tensor computing, heterogeneous parallel modeling,
 <section class="visitor-panel">
   <div class="visitor-copy">
     <h3>Global Reach</h3>
-    <p>A visitor-location globe can show where academic readers, collaborators, and students are visiting from around the world.</p>
+    <p>A visitor-location map can show where academic readers, collaborators, and students are visiting from around the world.</p>
     <div class="visitor-badges">
       <span>Live map ready</span>
       <span>GitHub Pages friendly</span>
-      <span>ClustrMaps compatible</span>
+      <span>MapMyVisitors enabled</span>
     </div>
   </div>
   <div class="visitor-widget">

@@ -671,6 +671,13 @@ ol.pub-list > li::marker {
   font-weight: 700;
 }
 
+.original-title {
+  margin: .25rem 0 .35rem !important;
+  color: var(--wht-muted) !important;
+  font-size: .82rem;
+  line-height: 1.42;
+}
+
 .author__avatar img {
   border: 3px solid #ffffff;
   box-shadow: 0 8px 24px rgba(30, 41, 51, .14);

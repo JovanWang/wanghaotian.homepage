@@ -34,12 +34,6 @@ I am an Associate Researcher and HNU Hexi Postdoctoral Fellow at Hunan Universit
 
 My research focuses on sparse tensor computing, heterogeneous parallel modeling, tensor compiler optimization, high-performance computing, heterogeneous computing, sparse optimization, automatic operator code generation, and generative artificial intelligence. I have hosted projects funded by the National Natural Science Foundation of China Youth Fund (Class C), China Postdoctoral Science Foundation, CCF-Huawei Populus Grove Fund, and State Grid, and have contributed as a technical member to national key R&D projects and industrial collaboration projects with Sugon, Huawei, and other partners. Related work has been published in venues including IEEE TPDS, IEEE TC, IEEE TSC, SC, and DAC.
 
-## 中文简介
-
-王昊天，副研究员，湖南大学赫曦博士后。2023 年博士毕业于湖南大学计算机科学与技术专业，博士期间曾在南洋理工大学联合培养；入选 2024 年度博士后创新人才支持计划（国家资助博士后研究人员计划 A 档）。主要研究领域为稀疏张量计算、异构并行建模、张量编译优化，并长期从事高性能计算、异构计算、稀疏优化、算子代码自动生成、生成式人工智能等方向研究。
-
-主持国家自然科学基金青年项目（C 类）、博士后科学基金面上项目、CCF-华为胡杨林基金和国家电网项目，作为技术骨干参与多项国家重点研发计划，以及曙光、华为等企业合作横向课题。相关成果在 TPDS、TC、TSC、SC、DAC 等国际期刊会议发表论文 10 余篇。
-
 <section class="metrics-strip" aria-label="Research snapshot">
   <div>
     <strong class="metric-value" data-count="20" data-suffix="+">20+</strong>
@@ -112,19 +106,19 @@ My research focuses on sparse tensor computing, heterogeneous parallel modeling,
 <div class="news-list">
   <article>
     <time>2026.04.21</time>
-    <p>申请项目“基于过程化开发范式提示的高质量代码生成技术研究”入选“2026 腾讯基础平台技术专项研究计划”。</p>
+    <p>The project "Research on High-Quality Code Generation via Process-Oriented Development Paradigm Prompting" was selected for the 2026 Tencent Basic Platform Technology Special Research Program.</p>
   </article>
   <article>
     <time>2025.12</time>
-    <p>博士学位论文《CPU-GPU 平台上稀疏张量运算库的设计与性能优化研究》被评为 2024 年湖南大学优秀博士学位论文。</p>
+    <p>The doctoral dissertation "Design and Performance Optimization of Sparse Tensor Computing Libraries on CPU-GPU Platforms" was recognized as a 2024 Outstanding Doctoral Dissertation of Hunan University.</p>
   </article>
   <article>
     <time>2025.08</time>
-    <p>编译星火第 31 期·编译器技术沙龙暨湖南大学-华为编译器与编程语言创新实验室 Workshop 和技术委员会会议举行。</p>
+    <p>Compiler Spark No. 31, the Compiler Technology Salon and Hunan University-Huawei Compiler and Programming Language Innovation Laboratory Workshop, was held.</p>
   </article>
   <article>
     <time>2025.08</time>
-    <p>全国高性能计算学术大会“国产超算系统 AI 算子库建设与优化升级论坛”在鄂尔多斯国际会展中心举行。</p>
+    <p>The CCF HPC China forum on AI operator library construction and optimization for domestic supercomputing systems was held at the Ordos International Convention and Exhibition Center.</p>
   </article>
   <article>
     <time>2025.03</time>
@@ -132,7 +126,7 @@ My research focuses on sparse tensor computing, heterogeneous parallel modeling,
   </article>
   <article>
     <time>2025.01</time>
-    <p>被评选为 2024 年度“赫曦博士后”，获湖南大学表彰。</p>
+    <p>Selected as a 2024 HNU Hexi Postdoctoral Fellow and recognized by Hunan University.</p>
   </article>
   <article>
     <time>2024.07</time>

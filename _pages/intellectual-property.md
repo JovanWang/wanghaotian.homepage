@@ -16,6 +16,9 @@ This page lists pending invention patent applications and software outputs relat
     <article class="ip-item">
       <div class="pub-meta"><span>{{ item.status }}</span><span>{{ item.type }}</span></div>
       <h3>{{ item.title }}</h3>
+      {% if item.original_title %}
+        <p class="original-title">Original title: {{ item.original_title }}</p>
+      {% endif %}
     </article>
   {% endfor %}
 </div>

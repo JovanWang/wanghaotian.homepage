@@ -8,6 +8,12 @@
       </div>
     {% endif %}
     <h3>{{ include.pub.title }}</h3>
+    {% if include.pub.original_title %}
+      <p class="original-title">Original title: {{ include.pub.original_title }}</p>
+    {% endif %}
     <p>{{ include.pub.authors }}. <em>{{ include.pub.venue }}</em>{% if include.pub.details %}, {{ include.pub.details }}{% endif %}.</p>
+    {% if include.pub.original_venue %}
+      <p class="original-title">Original venue: {{ include.pub.original_venue }}</p>
+    {% endif %}
   </article>
 </li>

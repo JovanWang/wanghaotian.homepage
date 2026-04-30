@@ -111,8 +111,28 @@ My research focuses on sparse tensor computing, heterogeneous parallel modeling,
 
 <div class="news-list">
   <article>
+    <time>2026.04.21</time>
+    <p>申请项目“基于过程化开发范式提示的高质量代码生成技术研究”入选“2026 腾讯基础平台技术专项研究计划”。</p>
+  </article>
+  <article>
+    <time>2025.12</time>
+    <p>博士学位论文《CPU-GPU 平台上稀疏张量运算库的设计与性能优化研究》被评为 2024 年湖南大学优秀博士学位论文。</p>
+  </article>
+  <article>
+    <time>2025.08</time>
+    <p>编译星火第 31 期·编译器技术沙龙暨湖南大学-华为编译器与编程语言创新实验室 Workshop 和技术委员会会议举行。</p>
+  </article>
+  <article>
+    <time>2025.08</time>
+    <p>全国高性能计算学术大会“国产超算系统 AI 算子库建设与优化升级论坛”在鄂尔多斯国际会展中心举行。</p>
+  </article>
+  <article>
     <time>2025.03</time>
     <p><a href="https://mp.weixin.qq.com/s?__biz=MzUyNDAzNzY3Mg==&mid=2247494863&idx=2&sn=fd2420098efdc42db2e636a2b3ba3f84&chksm=fa31d788cd465e9e93ea2c962b2ea981e11bcc3f72a974e1d09486d15720909fa12ddb0e60e9&scene=27">Interim report of the CCF-Huawei Populus Grove Fund project.</a></p>
+  </article>
+  <article>
+    <time>2025.01</time>
+    <p>被评选为 2024 年度“赫曦博士后”，获湖南大学表彰。</p>
   </article>
   <article>
     <time>2024.07</time>

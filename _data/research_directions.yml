@@ -1,0 +1,127 @@
+# Research directions are intentionally data-driven so the page can be refined
+# as project topics, student roles, and publication links become clearer.
+
+- id: sparse-tensor-algorithms
+  title: "Sparse Tensor Algorithms and Performance Optimization"
+  status: "Active focus"
+  summary: "Algorithms, formats, scheduling strategies, and runtime optimizations for irregular sparse matrix and tensor workloads on heterogeneous platforms."
+  keywords:
+    - "Sparse tensor kernels"
+    - "SpMV / SpMM / SpTTM / SpTC"
+    - "Load balancing"
+    - "Heterogeneous acceleration"
+  expected_goals:
+    - "Build a reusable sparse tensor algorithm toolbox covering core matrix and tensor operators."
+    - "Design input-aware partitioning, storage, and scheduling methods that reduce irregular memory access and synchronization overhead."
+    - "Establish reproducible benchmark suites across CPU, GPU, and domain-specific acceleration platforms."
+    - "Publish system-level results in high-performance computing, computer architecture, and parallel computing venues."
+  publications:
+    - title: "A Novel Parallel Algorithm for Sparse Tensor Matrix Chain Multiplication via TCU-Acceleration"
+      venue: "IEEE TPDS"
+      year: 2023
+    - title: "A Heterogeneous Parallel Computing Approach Optimizing SpTTM on CPU-GPU via GCN"
+      venue: "ACM TOPC"
+      year: 2023
+    - title: "IAP-SpTV: An Input-Aware Adaptive Pipeline SpTV via GCN on CPU-GPU"
+      venue: "JPDC"
+      year: 2023
+    - title: "BCB-SpTC: An Efficient Sparse High-Dimensional Tensor Contraction Employing Tensor Core Acceleration"
+      venue: "IEEE TPDS"
+      year: 2024
+  organization:
+    leader:
+      name: "Haotian Wang"
+      role: "Group Lead"
+      responsibilities:
+        - "Define research problems, technical routes, and publication plans."
+        - "Coordinate algorithm design, experimental methodology, and external collaboration."
+    members:
+      - name: "Algorithm researcher"
+        role: "Sparse algorithm design"
+        tasks:
+          - "Analyze sparse formats, tensor modes, and workload characteristics."
+          - "Prototype partitioning, tiling, and fusion strategies."
+      - name: "Kernel optimization member"
+        role: "CPU/GPU performance engineering"
+        tasks:
+          - "Implement optimized kernels and tune memory access, vectorization, and parallelism."
+          - "Profile bottlenecks and compare against vendor libraries and published baselines."
+      - name: "Benchmark and evaluation member"
+        role: "Experimental infrastructure"
+        tasks:
+          - "Maintain datasets, scripts, dashboards, and reproducibility artifacts."
+          - "Track ablations, portability results, and paper-ready figures."
+
+- id: codegen-compiler-optimization
+  title: "Code Generation and Compiler Optimization"
+  status: "To be refined"
+  summary: "Sparse-aware compilation, automatic scheduling, vectorized code generation, and AI-assisted optimization for high-performance kernels and operator libraries."
+  keywords:
+    - "Tensor compiler"
+    - "Sparse code generation"
+    - "Auto scheduling"
+    - "AI-assisted optimization"
+  expected_goals:
+    - "Develop compiler abstractions that expose sparse structure, hardware constraints, and optimization choices."
+    - "Generate vectorized and parallel code for sparse operators with predictable performance across platforms."
+    - "Explore AI-assisted schedule search, cost modeling, and code repair for compiler optimization loops."
+    - "Connect compiler prototypes with real operator libraries and application workloads."
+  publications:
+    - title: "SparseMode: A Sparse Compilation Framework for Efficient SpMV Vectorized Code Generation"
+      venue: "Journal of Computer Research and Development"
+      year: 2025
+    - title: "An Input-Aware Sparse Tensor Compiler Empowered by Vectorized Acceleration"
+      venue: "DAC"
+      year: 2025
+    - title: "A Context-Awareness and Hardware-Friendly Sparse Matrix Multiplication Kernel for CNN Inference Acceleration"
+      venue: "IEEE TC"
+      year: 2024
+  organization:
+    leader:
+      name: "Haotian Wang"
+      role: "Group Lead"
+      responsibilities:
+        - "Set compiler research agenda and connect algorithms with implementation targets."
+        - "Review IR design, schedule rules, generated code quality, and submission strategy."
+    members:
+      - name: "Compiler infrastructure member"
+        role: "IR and lowering"
+        tasks:
+          - "Design sparse operator representations, schedule primitives, and lowering passes."
+          - "Integrate code generation paths for CPU SIMD, GPU kernels, and other accelerators."
+      - name: "Auto-optimization member"
+        role: "Search and cost modeling"
+        tasks:
+          - "Build schedule search, parameter tuning, and performance prediction workflows."
+          - "Evaluate AI-assisted methods for code generation and optimization feedback."
+      - name: "Application integration member"
+        role: "Operator library and workload validation"
+        tasks:
+          - "Package generated kernels into reusable APIs and application examples."
+          - "Measure end-to-end impact on graph analytics, scientific computing, and AI workloads."
+
+- id: future-direction
+  title: "Emerging Direction"
+  status: "Open discussion"
+  summary: "A reserved slot for the next research direction after topic selection is finalized."
+  keywords:
+    - "TBD"
+    - "Research planning"
+    - "Collaboration"
+  expected_goals:
+    - "Clarify the core scientific question and target community."
+    - "Identify publishable milestones, datasets, and technical risks."
+    - "Map required members, collaboration resources, and evaluation criteria."
+  publications: []
+  organization:
+    leader:
+      name: "Haotian Wang"
+      role: "Topic Owner"
+      responsibilities:
+        - "Lead topic selection and align the direction with long-term group development."
+    members:
+      - name: "Prospective member"
+        role: "Literature and feasibility study"
+        tasks:
+          - "Survey related work, benchmark resources, and open-source systems."
+          - "Prepare candidate project proposals for discussion."

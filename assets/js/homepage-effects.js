@@ -27,7 +27,7 @@
     window.addEventListener("resize", updateProgress);
 
     var revealItems = document.querySelectorAll(
-      ".home-hero, .metrics-strip > div, .research-grid article, .selected-pubs article, .news-list article, .pub-item, .ip-item, .output-summary, .visitor-panel"
+      ".home-hero, .metrics-strip > div, .research-grid article, .selected-pubs article, .news-list article, .pub-item, .ip-item, .output-summary, .visitor-panel, .direction-overview-item, .direction-card, .direction-panel, .org-leader, .org-member"
     );
 
     if ("IntersectionObserver" in window) {

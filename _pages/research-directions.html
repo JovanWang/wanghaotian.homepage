@@ -1,0 +1,106 @@
+---
+layout: archive
+title: "Research Directions"
+permalink: /research-directions/
+author_profile: true
+---
+
+{% include base_path %}
+
+<section class="home-hero direction-hero">
+  <div class="home-kicker">Research agenda · group organization · project planning</div>
+  <h3>Research Directions</h3>
+  <p class="home-subtitle">This page records the research directions I am currently shaping with students and collaborators. Each direction is organized around expected goals, related publications, group leadership, member roles, and concrete tasks.</p>
+  <div class="hero-signals" aria-label="Research direction keywords">
+    <span>Sparse Tensor Algorithms</span>
+    <span>Performance Optimization</span>
+    <span>Code Generation</span>
+    <span>Compiler Optimization</span>
+    <span>To Be Discussed</span>
+  </div>
+</section>
+
+<section class="direction-overview" aria-label="Research direction overview">
+  {% for direction in site.data.research_directions %}
+    <a class="direction-overview-item" href="#{{ direction.id }}">
+      <span>{{ direction.status }}</span>
+      <strong>{{ direction.title }}</strong>
+    </a>
+  {% endfor %}
+</section>
+
+{% for direction in site.data.research_directions %}
+  <section id="{{ direction.id }}" class="direction-card section-anchor">
+    <div class="direction-header">
+      <div>
+        <div class="direction-status">{{ direction.status }}</div>
+        <h2>{{ direction.title }}</h2>
+      </div>
+      <div class="direction-keywords" aria-label="{{ direction.title }} keywords">
+        {% for keyword in direction.keywords %}
+          <span>{{ keyword }}</span>
+        {% endfor %}
+      </div>
+    </div>
+
+    <p class="direction-summary">{{ direction.summary }}</p>
+
+    <div class="direction-columns">
+      <section class="direction-panel">
+        <h3><i class="fa-solid fa-bullseye"></i> Expected Goals</h3>
+        <ul class="direction-list">
+          {% for goal in direction.expected_goals %}
+            <li>{{ goal }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="direction-panel">
+        <h3><i class="fa-solid fa-book-open"></i> Publications</h3>
+        {% assign publication_count = direction.publications | size %}
+        {% if publication_count > 0 %}
+          <ol class="direction-pubs">
+            {% for pub in direction.publications %}
+              <li>
+                <strong>{{ pub.title }}</strong>
+                <span>{{ pub.venue }}, {{ pub.year }}</span>
+              </li>
+            {% endfor %}
+          </ol>
+        {% else %}
+          <p class="direction-empty">Representative publications will be added after the topic is finalized.</p>
+        {% endif %}
+      </section>
+    </div>
+
+    <section class="direction-organization" aria-label="{{ direction.title }} organization">
+      <h3><i class="fa-solid fa-sitemap"></i> Organization and Tasks</h3>
+
+      <div class="org-chart">
+        <div class="org-leader">
+          <span class="org-label">{{ direction.organization.leader.role }}</span>
+          <strong>{{ direction.organization.leader.name }}</strong>
+          <ul>
+            {% for item in direction.organization.leader.responsibilities %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="org-members">
+          {% for member in direction.organization.members %}
+            <article class="org-member">
+              <span class="org-label">{{ member.role }}</span>
+              <strong>{{ member.name }}</strong>
+              <ul>
+                {% for task in member.tasks %}
+                  <li>{{ task }}</li>
+                {% endfor %}
+              </ul>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </section>
+{% endfor %}

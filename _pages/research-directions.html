@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research Directions"
+title: "Research Hotspots"
 permalink: /research-directions/
 author_profile: true
 ---
@@ -8,9 +8,9 @@ author_profile: true
 {% include base_path %}
 
 <section class="home-hero direction-hero">
-  <div class="home-kicker">Research agenda · group organization · project planning</div>
-  <h3>Research Directions</h3>
-  <p class="home-subtitle">This page records the research directions I am currently shaping with students and collaborators. Each direction is organized around expected goals, related publications, group leadership, member roles, and concrete tasks.</p>
+  <div class="home-kicker">研究热点 · topic map · publication threads</div>
+  <h3>Research Hotspots</h3>
+  <p class="home-subtitle">This page sketches the research hotspots I am currently shaping with students and collaborators. The emphasis is on topic themes, expected goals, representative outputs, and a lightweight view of who is working on what.</p>
   <div class="hero-signals" aria-label="Research direction keywords">
     <span>Sparse Tensor Algorithms</span>
     <span>Performance Optimization</span>
@@ -22,7 +22,7 @@ author_profile: true
 
 <section class="direction-overview" aria-label="Research direction overview">
   {% for direction in site.data.research_directions %}
-    <a class="direction-overview-item" href="#{{ direction.id }}">
+    <a class="direction-overview-item theme-{{ direction.accent }}" href="#{{ direction.id }}">
       <span>{{ direction.status }}</span>
       <strong>{{ direction.title }}</strong>
     </a>
@@ -30,7 +30,7 @@ author_profile: true
 </section>
 
 {% for direction in site.data.research_directions %}
-  <section id="{{ direction.id }}" class="direction-card section-anchor">
+  <section id="{{ direction.id }}" class="direction-card theme-{{ direction.accent }} section-anchor">
     <div class="direction-header">
       <div>
         <div class="direction-status">{{ direction.status }}</div>
@@ -74,17 +74,13 @@ author_profile: true
     </div>
 
     <section class="direction-organization" aria-label="{{ direction.title }} organization">
-      <h3><i class="fa-solid fa-sitemap"></i> Organization and Tasks</h3>
+      <h3><i class="fa-solid fa-sitemap"></i> People</h3>
 
       <div class="org-chart">
         <div class="org-leader">
           <span class="org-label">{{ direction.organization.leader.role }}</span>
           <strong>{{ direction.organization.leader.name }}</strong>
-          <ul>
-            {% for item in direction.organization.leader.responsibilities %}
-              <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
+          <p>{{ direction.organization.leader.focus }}</p>
         </div>
 
         <div class="org-members">
@@ -92,11 +88,7 @@ author_profile: true
             <article class="org-member">
               <span class="org-label">{{ member.role }}</span>
               <strong>{{ member.name }}</strong>
-              <ul>
-                {% for task in member.tasks %}
-                  <li>{{ task }}</li>
-                {% endfor %}
-              </ul>
+              <p>{{ member.focus }}</p>
             </article>
           {% endfor %}
         </div>

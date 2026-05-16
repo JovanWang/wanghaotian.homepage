@@ -1,10 +1,11 @@
-# Research directions are intentionally data-driven so the page can be refined
-# as project topics, student roles, and publication links become clearer.
+# Research hotspots are data-driven so topics, people, and outputs can be
+# refined as the research agenda evolves.
 
 - id: sparse-tensor-algorithms
+  accent: "teal"
   title: "Sparse Tensor Algorithms and Performance Optimization"
-  status: "Active focus"
-  summary: "Algorithms, formats, scheduling strategies, and runtime optimizations for irregular sparse matrix and tensor workloads on heterogeneous platforms."
+  status: "Research Hotspot"
+  summary: "Algorithms, formats, scheduling strategies, and runtime optimizations for irregular sparse matrix and tensor workloads."
   keywords:
     - "Sparse tensor kernels"
     - "SpMV / SpMM / SpTTM / SpTC"
@@ -31,31 +32,24 @@
   organization:
     leader:
       name: "Haotian Wang"
-      role: "Group Lead"
-      responsibilities:
-        - "Define research problems, technical routes, and publication plans."
-        - "Coordinate algorithm design, experimental methodology, and external collaboration."
+      role: "Lead"
+      focus: "Planning"
     members:
       - name: "Algorithm researcher"
-        role: "Sparse algorithm design"
-        tasks:
-          - "Analyze sparse formats, tensor modes, and workload characteristics."
-          - "Prototype partitioning, tiling, and fusion strategies."
+        role: "Algorithms"
+        focus: "Formats"
       - name: "Kernel optimization member"
-        role: "CPU/GPU performance engineering"
-        tasks:
-          - "Implement optimized kernels and tune memory access, vectorization, and parallelism."
-          - "Profile bottlenecks and compare against vendor libraries and published baselines."
+        role: "Kernels"
+        focus: "CPU/GPU"
       - name: "Benchmark and evaluation member"
-        role: "Experimental infrastructure"
-        tasks:
-          - "Maintain datasets, scripts, dashboards, and reproducibility artifacts."
-          - "Track ablations, portability results, and paper-ready figures."
+        role: "Evaluation"
+        focus: "Benchmarks"
 
 - id: codegen-compiler-optimization
+  accent: "indigo"
   title: "Code Generation and Compiler Optimization"
-  status: "To be refined"
-  summary: "Sparse-aware compilation, automatic scheduling, vectorized code generation, and AI-assisted optimization for high-performance kernels and operator libraries."
+  status: "Research Hotspot"
+  summary: "Sparse-aware compilation, automatic scheduling, vectorized code generation, and AI-assisted optimization."
   keywords:
     - "Tensor compiler"
     - "Sparse code generation"
@@ -79,31 +73,24 @@
   organization:
     leader:
       name: "Haotian Wang"
-      role: "Group Lead"
-      responsibilities:
-        - "Set compiler research agenda and connect algorithms with implementation targets."
-        - "Review IR design, schedule rules, generated code quality, and submission strategy."
+      role: "Lead"
+      focus: "Architecture"
     members:
       - name: "Compiler infrastructure member"
-        role: "IR and lowering"
-        tasks:
-          - "Design sparse operator representations, schedule primitives, and lowering passes."
-          - "Integrate code generation paths for CPU SIMD, GPU kernels, and other accelerators."
+        role: "Compiler"
+        focus: "IR"
       - name: "Auto-optimization member"
-        role: "Search and cost modeling"
-        tasks:
-          - "Build schedule search, parameter tuning, and performance prediction workflows."
-          - "Evaluate AI-assisted methods for code generation and optimization feedback."
+        role: "Auto-tuning"
+        focus: "Search"
       - name: "Application integration member"
-        role: "Operator library and workload validation"
-        tasks:
-          - "Package generated kernels into reusable APIs and application examples."
-          - "Measure end-to-end impact on graph analytics, scientific computing, and AI workloads."
+        role: "Systems"
+        focus: "Library"
 
 - id: future-direction
+  accent: "amber"
   title: "Emerging Direction"
-  status: "Open discussion"
-  summary: "A reserved slot for the next research direction after topic selection is finalized."
+  status: "To Be Discussed"
+  summary: "A reserved topic slot for the next research hotspot after topic selection is finalized."
   keywords:
     - "TBD"
     - "Research planning"
@@ -116,12 +103,9 @@
   organization:
     leader:
       name: "Haotian Wang"
-      role: "Topic Owner"
-      responsibilities:
-        - "Lead topic selection and align the direction with long-term group development."
+      role: "Owner"
+      focus: "Selection"
     members:
       - name: "Prospective member"
-        role: "Literature and feasibility study"
-        tasks:
-          - "Survey related work, benchmark resources, and open-source systems."
-          - "Prepare candidate project proposals for discussion."
+        role: "Survey"
+        focus: "Feasibility"
